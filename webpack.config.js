@@ -34,8 +34,18 @@ module.exports = {
         ]
       },
       {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        use: [
+        'file-loader',
+        ],
+      },
+      // {
+      //   test: /\.svg$/,
+      //   loader: 'svg-url-loader'
+      // },
+      {
         test: /\.svg$/,
-        loader: 'svg-url-loader'
+        loader: 'svg-inline-loader'
       },
       {
         test:/\.html$/,
@@ -50,7 +60,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       inject: 'body',
       template: './src/index.html',
-      filename: 'index.html'
+      filename: 'index.html',
+      minify: false
     })
   ]
 };
