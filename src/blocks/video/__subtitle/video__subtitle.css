@@ -1,0 +1,24 @@
+.video__subtitle {
+  font-size:1.4rem;
+  line-height:1.5rem;
+  margin:3.8% 0 6%;
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .video__subtitle {
+    margin:auto 0 7.5%;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .video__subtitle {
+    margin:auto 0 8.4%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .video__subtitle {
+    margin:auto 0 6.4%;
+  }
+}
+

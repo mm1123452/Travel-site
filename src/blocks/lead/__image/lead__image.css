@@ -1,0 +1,30 @@
+.lead__image{
+  width:100%;
+  min-height:21.1rem;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 425px)   {
+  .lead__image{
+    min-height:21.9rem;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px)  {
+  .lead__image{
+    max-height:44rem;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px)  {
+  .lead__image{
+    max-height:55.4rem;
+  }
+}
+
+@media only screen and (min-width: 1025px)  {
+  .lead__image{
+    max-height:56.5rem;
+  }
+}
+
+

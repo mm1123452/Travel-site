@@ -1,0 +1,27 @@
+.header__lang {
+  color:#ffffff;
+  font-size:1.8rem;
+  line-height:.968;
+  margin:0 0 0;
+  min-height:1.8rem;
+  min-width:3rem;
+  text-decoration:none;
+}
+
+.header__lang:first-child {
+  margin-right:1.6rem;
+
+}
+
+@media only screen and (min-width: 426px)   {
+  .header__lang  {
+    min-height:2.3rem;
+    font-size:2.4rem;
+    line-height:2.3rem;
+  }
+
+  .header__lang:not(:first-child) {
+    margin-left:1.8rem;
+  }
+}
+

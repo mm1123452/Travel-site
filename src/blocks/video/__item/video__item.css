@@ -1,0 +1,12 @@
+.video__item {
+  position:relative;
+  margin-bottom:.8rem;
+}
+
+@media only screen and (min-width: 426px) {
+  .video__item {
+    width: calc((100% - 16px) / 2 );
+    height:100%;
+    margin-bottom:0;
+  }
+}

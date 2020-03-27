@@ -1,0 +1,11 @@
+.places-list {
+  padding:0;
+  list-style-type:none;
+  margin:0;
+  width:100%;
+  display:grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+

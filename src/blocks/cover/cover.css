@@ -1,0 +1,63 @@
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+
+.cover {
+  background: linear-gradient(rgba(42, 44, 47, .5), rgba(42, 44, 47, .5)),
+  url('../../images/route-66.jpg') no-repeat center ;
+  background-size: cover;
+  width:100%;
+  margin:19% 0 0;
+  min-height:21.4rem;
+
+  display:flex;
+  flex-direction:column;
+}
+
+.cover:hover {
+  background: linear-gradient(rgba(42, 44, 47, .2), rgba(42, 44, 47, .2)),
+  url('../../images/route-66.jpg') no-repeat center ;
+  background-size: cover;
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 425px)   {
+  .cover  {
+    min-height:27.2rem;
+  }
+}
+
+
+@media only screen and (min-width: 426px) and (max-width: 768px)   {
+  .cover  {
+    max-height:50rem;
+    margin:13% 0 0;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px)  {
+  .cover  {
+    max-height:56.2rem;
+    margin:8.1% 0 0;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px)   {
+  .cover  {
+    max-height:59.4rem;
+    margin:8.04% 0 0;
+  }
+}
+
+
+@media only screen and (min-width: 1281px)  {
+  .cover  {
+    max-height:59.4rem;
+    margin:10.3rem 0 0;
+    /* margin:8.04% 0 0; */
+    max-width:118.4rem;
+    margin:10.3rem auto 0;
+  }
+}
+
+
+

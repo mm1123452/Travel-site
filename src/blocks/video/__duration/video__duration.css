@@ -1,0 +1,27 @@
+.video__duration {
+  font-size:1.2rem;
+  line-height:1.3rem;
+  letter-spacing: .3em;
+  font-weight:500;
+  margin:auto 0 .8rem;
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .video__duration {
+    margin:auto 0 .8rem;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .video__duration {
+    margin:auto 0 2.5%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .video__duration {
+    margin:auto 0 0;
+  }
+}
+
+

@@ -1,0 +1,21 @@
+.place__website {
+  display:none;
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px){
+  .place__website {
+    margin:0 0 5.3rem;
+    display:block;
+    grid-area: website;
+    align-self: end;
+  }
+}
+
+@media only screen and (min-width: 769px){
+  .place__website {
+    margin:0 0 5rem;
+    display:block;
+    grid-area: website;
+    align-self: end;
+  }
+}

@@ -1,0 +1,26 @@
+@import url(./__author/comment__author.css);
+@import url(./__image/comment__image.css);
+@import url(./__quote/comment__quote.css);
+
+.comment {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.comment:not(:last-child) {
+  margin-bottom: 12%;
+}
+
+@media only screen and (min-width: 769px) {
+  .comment {
+    width: calc((100% - 38px)/3);
+    align-items:flex-start;
+
+  }
+
+  .comment:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+

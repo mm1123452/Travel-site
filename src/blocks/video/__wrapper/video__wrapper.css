@@ -1,0 +1,33 @@
+.video__wrapper {
+  width: calc(100% - 6%);
+  height:100%;
+  padding-left:6%;
+  overflow:hidden;
+
+  position:absolute;
+  left:0;
+  top:0;
+
+  display:flex;
+  flex-direction:column;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: background-color .7s ease-in;
+}
+
+.video__wrapper:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .video__wrapper {
+    padding-left:6.5%;
+    width: calc(100% - 6.5%);
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .video__wrapper {
+    padding-left:3.2rem;
+    width: calc(100% - 32px);
+  }
+}

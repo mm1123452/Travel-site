@@ -1,0 +1,13 @@
+.intro__text {
+  margin:0;
+  font-size:1.6rem;
+  line-height:169.4%;
+}
+
+@media only screen and (min-width: 426px)  {
+  .intro__text {
+    margin:0;
+    font-size:1.4rem;
+    line-height:2.4rem;
+  }
+}

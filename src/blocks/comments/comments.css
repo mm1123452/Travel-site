@@ -1,0 +1,27 @@
+@import url(./__container/comments__container.css);
+
+.comments {
+  margin:7.6rem 1.6rem 0;
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px)   {
+  .comments {
+    margin:11.6rem 5.4rem 0;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1280px)   {
+  .comments {
+    margin:10.2rem 4.8rem 0;
+    max-width: 118.4rem;
+  }
+}
+
+@media only screen and (min-width: 1281px)    {
+  .comments {
+    max-width: 118.4rem;
+    margin:10.2rem auto 0;
+    height:56.9rem;
+
+  }
+}
+
